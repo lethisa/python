@@ -31,7 +31,7 @@ print(a[0:2])
 print(a[:3])
 print(a[3:-1])
 
-# list
+# list - support any type
 listed = ["H", 2, "Hello"]
 print(listed[1])
 print(listed[0:2])
@@ -42,7 +42,7 @@ t = ("Hello", 3, 4)
 print(t)
 print(type(t))
 
-# dictionaries
+# dictionaries - key value
 d = {"name":"lethisa","age":21}
 print(d["name"])
 print(type(d))
