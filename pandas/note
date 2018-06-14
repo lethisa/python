@@ -1,0 +1,12 @@
+import pandas
+
+df1 = pandas.DataFrame([[2,4,6],[10,20,30]],columns=["price","age","value"])
+
+df1
+
+df1=pandas.DataFrame([[2,4,6],[10,20,30]],columns=["price","age","value"],index=["first","second"])
+
+df2=pandas.DataFrame([{"name":"john"},{"name":"jack"}])
+
+df2=pandas.DataFrame([{"name":"john","surename":"ape"},{"name":"jack","surename":"uye"}])
+
