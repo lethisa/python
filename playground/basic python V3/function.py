@@ -1,3 +1,7 @@
+"""
+learn function syntax in python
+"""
+
 # function definition
 def minutes_to_hours(second, minutes=60):
     hours = minutes / 60 + second / 3600
