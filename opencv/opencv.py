@@ -12,3 +12,4 @@ cv2.imshow("Galaxy", resized_image)
 cv2.imwrite("galaxy_resized.jpg", resized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
